@@ -11,6 +11,8 @@
 		1A37265227D3A6B5009D3901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37265127D3A6B5009D3901 /* ContentView.swift */; };
 		1A37265427D3A6B7009D3901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A37265327D3A6B7009D3901 /* Assets.xcassets */; };
 		1A37265727D3A6B7009D3901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A37265627D3A6B7009D3901 /* Preview Assets.xcassets */; };
+		1AEF290227D77C5100209F7E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF290127D77C5100209F7E /* GameView.swift */; };
+		1AEF290427D7819500209F7E /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF290327D7819500209F7E /* SetupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1A37265127D3A6B5009D3901 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A37265327D3A6B7009D3901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A37265627D3A6B7009D3901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AEF290127D77C5100209F7E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1AEF290327D7819500209F7E /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				1A37264F27D3A6B5009D3901 /* HangmanApp.swift */,
 				1A37265127D3A6B5009D3901 /* ContentView.swift */,
+				1AEF290327D7819500209F7E /* SetupView.swift */,
+				1AEF290127D77C5100209F7E /* GameView.swift */,
 				1A37265327D3A6B7009D3901 /* Assets.xcassets */,
 				1A37265527D3A6B7009D3901 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A37265227D3A6B5009D3901 /* ContentView.swift in Sources */,
+				1AEF290227D77C5100209F7E /* GameView.swift in Sources */,
 				1A37265027D3A6B5009D3901 /* HangmanApp.swift in Sources */,
+				1AEF290427D7819500209F7E /* SetupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hangman/Preview Content\"";
+				DEVELOPMENT_TEAM = D63PMV66AT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hangman/Preview Content\"";
+				DEVELOPMENT_TEAM = D63PMV66AT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
